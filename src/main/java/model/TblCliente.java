@@ -15,14 +15,13 @@ public class TblCliente implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-
+	private int idcliente;
+	
 	private String apellido;
 
 	private String dni;
 
 	private String email;
-
-	private int idcliente;
 
 	private String nombre;
 
